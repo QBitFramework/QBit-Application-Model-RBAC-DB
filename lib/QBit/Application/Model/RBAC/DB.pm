@@ -104,3 +104,33 @@ sub get_roles_by_rights {
 }
 
 TRUE;
+
+__END__
+
+=encoding utf8
+
+=head1 Name
+
+QBit::Application::Model::RBAC::DB - RBAC DB realization.
+
+=head1 GitHub
+
+https://github.com/QBitFramework/QBit-Application-Model-RBAC-DB
+
+=head1 Install
+
+=over
+
+=item *
+
+cpanm QBit::Application::Model::RBAC::DB
+
+=item *
+
+apt-get install libqbit-application-model-rbac-db-perl (http://perlhub.ru/)
+
+=back
+
+For more information. please, see code.
+
+=cut
