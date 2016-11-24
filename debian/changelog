@@ -1,3 +1,9 @@
+libqbit-application-model-rbac-db-perl (0.002) raring; urgency=low
+
+  * upload to cpan
+
+ -- Igor Sverdlov <igor-sverdlov@mail.ru>  Sun, 11 Sep 2016 15:24:50 +0300
+
 libqbit-application-model-rbac-db-perl (0.001) raring; urgency=low
 
   * Initial commit
