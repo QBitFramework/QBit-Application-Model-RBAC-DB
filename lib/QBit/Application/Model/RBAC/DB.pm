@@ -55,10 +55,9 @@ sub get_roles_rights {
 sub get_cur_user_roles {
     my ($self) = @_;
 
-    my $cur_user = $self->get_option('cur_user');
-    return undef unless defined($cur_user);
+    my $cur_user = $self->cur_user();
 
-    return $self->get_roles_by_user_id($cur_user->{'id'});
+    return %$cur_user ? $self->get_roles_by_user_id($cur_user->{'id'}) : {};
 }
 
 sub get_roles_by_user_id {
